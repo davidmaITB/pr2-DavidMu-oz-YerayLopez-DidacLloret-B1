@@ -19,4 +19,4 @@ try:
 #except ValueError per si posa lletres
 
 except ValueError:
-    print("nomes números cara anchoa")
+    print("només números cara anchoa")
