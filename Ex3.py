@@ -7,12 +7,22 @@ InRange
 ASIXc 1B
 """
 try:
-    print("si el número a comparar està dins dels rangs del primer i el segon, o del tercer i el quart el valor serà true; sinó el valor serà false")
-    Primnum = input(int("Primer número aquí:"))
-    Secnum = input(int("Segón número aquí:"))
-    Tercnum = input(int("Tercer número aquí:"))
-    Quartnum = input(int("Quart número aquí:"))
-    Cincnum = input(int("Número a comparar aquí:"))
-    if:
-        Cincnum 
+    print("Posa 5 numeros enters")
+    Primnum = int(input("Primer número aquí:"))
+    Secnum = int(input("Segón número aquí:"))
+    Tercnum = int(input("Tercer número aquí:"))
+    Quartnum = int(input("Quart número aquí:"))
+    Cincnum = int(input("Número a comparar aquí:"))
+
+    llista =  [Primnum, Secnum]
+    llista2 = [Tercnum, Quartnum]
+
+    if Cincnum in llista:
+        print("True")
+    elif Cincnum in llista2:
+        print("True")
+    else:
+        print("False")
+except ValueError:
+    print("No has posat un numero enter")
 
