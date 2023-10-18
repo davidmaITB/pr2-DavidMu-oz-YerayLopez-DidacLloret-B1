@@ -23,6 +23,9 @@ try:
         print("True")
     else:
         print("False")
+
+    print(Primnum<=Secnum)
+
 except ValueError:
     print("No has posat un numero enter")
 

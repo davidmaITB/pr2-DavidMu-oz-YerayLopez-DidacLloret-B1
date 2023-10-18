@@ -8,7 +8,8 @@ ASIXc 1B
 """
 try:
     edat = int(input("Posa la teva edat: "))
-    edattreball = list(range(16, 66))  # Crear una llista de edats permitides de 16 a 65 anys
+    # Crear el rang d'edat on es pot treballar
+    edattreball = range(16, 66)
     if edat in edattreball:
         print("Pots treballar")
     else:
